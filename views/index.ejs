@@ -1,0 +1,31 @@
+<div>
+    <% for(var i=0; i < data.length; i++) { %>
+    <ul>
+        <li>
+            <h1><%= data[i][1] %></h1>
+        </li>
+
+        <ul>
+            <% for(var a=0; a < data[i][0].length; a++) { %>
+            <div style="margin-top: 1vw;">
+                <li>
+                    <h2><%= data[i][0][a][1] %></h2>
+                </li>
+                <div>
+                    <ul>
+                        <% for (const key in data[i][0][a][0]) { %>
+                        <% if (data[i][0][a][0].hasOwnProperty(key)) { %>
+                        <li>
+                            <h3><%= key +" : "+ data[i][0][a][0][key] %></h3>
+                        </li>
+                        <% } %>
+                        <% } %>
+                    </ul>
+                </div>
+                <% } %>
+            </div>
+        </ul>
+
+    </ul>
+    <% } %>
+</div>
