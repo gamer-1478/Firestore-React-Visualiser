@@ -9,6 +9,11 @@ This project Uses [Ejs](https://ejs.co/), [Node.js](https://nodejs.org/en/), [Ex
 
 This project is a template for projects with opensource or public code and they are using firestore. You can make a seperate database for the test app and give all contributors visual acess as they would have on the firestore website. Place the firebase service admin creds in the env and deploy on heroku. You need to add the env vars in the heroku app settings too.
 
+## DataBase
+
+This project uses firebase firestore database, whose creds are already provided in env for easy use. This database is the same as the one used in project [Chepobin-public](https://github.com/gamer-1478/chepobin-public), if you want to coontribute, you can contribute to this project too.
+
+
 ## Contribution Guidelines 🏗
 
 Are there any missing features which we can add to make it the best snippet sharing service? or you are here just to help out with the issues (see issues) or to contribute towards hacktoberfest 2021, well welcome!
