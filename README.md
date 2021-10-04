@@ -1,4 +1,4 @@
-# Firestore React Visualiser
+# Firestore Data Visualiser
 
 The website For HacktoberFest Is Live At [chepobin-public.herokuapp.com](https://chepobin-public.herokuapp.com).
 
@@ -20,21 +20,21 @@ Are there any missing features which we can add to make it the best snippet shar
 To start contributing, follow the below guidelines:
 
 ```
-  D:\xyz_folder> git clone git@github.com:gamer-1478/Firestore-React-Visualiser.git
-  D:\xyz_folder> cd Firestore-React-Visualiser
-  D:\xyz_folder\Firestore-React-Visualiser> npm install
+  D:\xyz_folder> git clone git@github.com:gamer-1478/Firestore-data-visualiser.git
+  D:\xyz_folder> cd Firestore-data-visualiser
+  D:\xyz_folder\Firestore-data-visualiser> npm install
 ```
 
 #### This runs the app in test mode.
 
 ```
-D:\xyz_folder\chepobin-public> npm run dev
+D:\xyz_folder\Firestore-data-visualiser> npm run dev
 ```
 
 #### Start The App In Production Using.
 
 ```
-D:\xyz_folder\chepobin-public> npm start
+D:\xyz_folder\Firestore-data-visualiser> npm start
 ```
 
 You're done! Now you can help with the issues (issues tab and also the issues file) or maybe even add some sections (team section or missions etc) and after accepting the PR It'll be counted as your contribution to open source and for hacktoberfest in the month of october!
