@@ -1,0 +1,15 @@
+{
+  "name": "firestore-react-visualiser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "author": "gamer-1478",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
